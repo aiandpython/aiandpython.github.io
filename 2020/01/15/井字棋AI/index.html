@@ -101,7 +101,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="python AI,">
 
 
 
@@ -112,16 +112,26 @@
 
 
 
-<meta name="description" content="一位孤独旅者">
-<meta property="og:type" content="website">
-<meta property="og:title" content="abc&#39;s blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="今天翻出很久前写的井字棋程序(也许算得上AI吧)简单改进了一下与用户交互的方面然后丢给我弟玩欣赏着他怎样都下不过计算机时的表情反正也闲着没事(其实不想做脑力劳动，lazy)，就简单写一篇博客吧 开端之前不知道是在哪里看到自我博弈这个概念的然后就突发奇想，想要自己写一个程序\  这个程序只要输入规则然后就可以通过自我博弈来成为高手中间不需要任何人干预，不需要借助任何现成的走法  然后。。。（连简单的">
+<meta name="keywords" content="python AI">
+<meta property="og:type" content="article">
+<meta property="og:title" content="井字棋AI">
+<meta property="og:url" content="http://yoursite.com/2020/01/15/井字棋AI/index.html">
 <meta property="og:site_name" content="abc&#39;s blog">
-<meta property="og:description" content="一位孤独旅者">
+<meta property="og:description" content="今天翻出很久前写的井字棋程序(也许算得上AI吧)简单改进了一下与用户交互的方面然后丢给我弟玩欣赏着他怎样都下不过计算机时的表情反正也闲着没事(其实不想做脑力劳动，lazy)，就简单写一篇博客吧 开端之前不知道是在哪里看到自我博弈这个概念的然后就突发奇想，想要自己写一个程序\  这个程序只要输入规则然后就可以通过自我博弈来成为高手中间不需要任何人干预，不需要借助任何现成的走法  然后。。。（连简单的">
 <meta property="og:locale" content="zh_lang">
+<meta property="og:image" content="http://yoursite.com/2020/01/15/井字棋AI/jing_1_1.png">
+<meta property="og:image" content="http://yoursite.com/2020/01/15/井字棋AI/jing_1_2.png">
+<meta property="og:image" content="http://yoursite.com/2020/01/15/井字棋AI/jing_4_tree1">
+<meta property="og:image" content="http://yoursite.com/2020/01/15/井字棋AI/jing_4_tree2">
+<meta property="og:image" content="http://yoursite.com/2020/01/15/井字棋AI/jing_4_tree2">
+<meta property="og:image" content="http://yoursite.com/2020/01/15/井字棋AI/jing_4_1">
+<meta property="og:image" content="http://yoursite.com/2020/01/15/井字棋AI/jing_4_2">
+<meta property="og:updated_time" content="2020-01-26T18:10:44.712Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="abc&#39;s blog">
-<meta name="twitter:description" content="一位孤独旅者">
+<meta name="twitter:title" content="井字棋AI">
+<meta name="twitter:description" content="今天翻出很久前写的井字棋程序(也许算得上AI吧)简单改进了一下与用户交互的方面然后丢给我弟玩欣赏着他怎样都下不过计算机时的表情反正也闲着没事(其实不想做脑力劳动，lazy)，就简单写一篇博客吧 开端之前不知道是在哪里看到自我博弈这个概念的然后就突发奇想，想要自己写一个程序\  这个程序只要输入规则然后就可以通过自我博弈来成为高手中间不需要任何人干预，不需要借助任何现成的走法  然后。。。（连简单的">
+<meta name="twitter:image" content="http://yoursite.com/2020/01/15/井字棋AI/jing_1_1.png">
 
 
 
@@ -151,13 +161,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2020/01/15/井字棋AI/">
 
 
 
 
 
-  <title>abc's blog</title>
+  <title>井字棋AI | abc's blog</title>
   
 
 
@@ -176,8 +186,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -280,9 +289,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -312,9 +321,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2020/01/15/井字棋AI/" itemprop="url">井字棋AI</a></h1>
+          <h1 class="post-title" itemprop="name headline">井字棋AI</h1>
         
 
         <div class="post-meta">
@@ -374,9 +381,7 @@
       
 
       
-        
-          
-            <p>今天翻出很久前写的井字棋程序(也许算得上AI吧)<br>简单改进了一下与用户交互的方面<br>然后丢给我弟玩<br>欣赏着他怎样都下不过计算机时的表情<br>反正也闲着没事(其实不想做脑力劳动，lazy)，就简单写一篇博客吧</p>
+        <p>今天翻出很久前写的井字棋程序(也许算得上AI吧)<br>简单改进了一下与用户交互的方面<br>然后丢给我弟玩<br>欣赏着他怎样都下不过计算机时的表情<br>反正也闲着没事(其实不想做脑力劳动，lazy)，就简单写一篇博客吧</p>
 <h1 id="开端"><a href="#开端" class="headerlink" title="开端"></a>开端</h1><p>之前不知道是在哪里看到<strong>自我博弈</strong>这个概念的<br>然后就突发奇想，想要自己写一个程序\</p>
 <blockquote>
 <p>这个程序只要输入规则<br>然后就可以通过自我博弈来成为高手<br>中间不需要任何人干预，不需要借助任何现成的走法</p>
@@ -511,8 +516,6 @@
 
 <h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>半夜2点了，放几张图就该溜了<br>过几天再试试最开始的想法<br>谁有兴趣和它对战，联系我（谁稀罕这破代码。。。）<br><img src="/2020/01/15/井字棋AI/jing_4_1" alt><br><img src="/2020/01/15/井字棋AI/jing_4_2" alt></p>
 
-          
-        
       
     </div>
     
@@ -527,309 +530,36 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/06/debian桌面优化/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="abc">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="abc's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2020/01/06/debian桌面优化/" itemprop="url">debian桌面优化</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-01-06T12:11:20+08:00">
-                2020-01-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/python-AI/" rel="tag"># python AI</a>
           
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2020/01/06/debian桌面优化/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2020/01/06/debian桌面优化/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>半年后重新来写blog(也算2020年第一篇)</p>
-<h1 id="美化"><a href="#美化" class="headerlink" title="美化"></a>美化</h1><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><h3 id="mac"><a href="#mac" class="headerlink" title="mac"></a>mac</h3><p>从<a href="http://jorrel.googlepages.com/Monaco_Linux.ttf" target="_blank" rel="noopener">这里</a>这里下载mac的Monaco字体，（访问有点困难需要想(翻)办(墙)法）<br>然后将.ttf的字体文件移到/usr/share/fonts/truetype/custom/（没有的话，创建）</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo mv Monaco_Linux.ttf /usr/share/fonts/truetype/custom/</span><br></pre></td></tr></table></figure>
-
-<p>然后运行</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo <span class="built_in">fc</span>-cache -f -v</span><br></pre></td></tr></table></figure>
-
-<p>或者网上的方法（但我这边没法使用）</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ curl -kL https://raw.github.com/cstrap/monaco-font/master/install-font-ubuntu.sh | bash</span><br></pre></td></tr></table></figure>
-
-<h3 id="microsoft"><a href="#microsoft" class="headerlink" title="microsoft"></a>microsoft</h3><p>从我的win10里面获取微软雅黑等中文字体<br>位置在 C:\Windows\Fonts <br>然后和上面方法一样，只是ttc文件要转为ttf（可以用这个<a href="https://transfonter.org/ttc-unpack" target="_blank" rel="noopener">网站</a>）</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo mv ×.ttf /usr/share/fonts/truetype/custom/</span><br><span class="line">$ sudo <span class="built_in">fc</span>-cache -f -v</span><br></pre></td></tr></table></figure>
-
-<h2 id="mac主题界面"><a href="#mac主题界面" class="headerlink" title="mac主题界面"></a>mac主题界面</h2><p>在gnome主题网站上找到一个类mac的主题Flat-Remix-GTK-Blue-Solid<br>所有加起来就是<br><img src="/2020/01/06/debian桌面优化/beautify1.png" alt><br><img src="/2020/01/06/debian桌面优化/beautify2.png" width="60%" height="60%"><br><img src="/2020/01/06/debian桌面优化/beautify3.png" alt><br><img src="/2020/01/06/debian桌面优化/beautify4.png" width="70%" height="70%"><br>怎么样，还可以吧</p>
-<h1 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h1><h2 id="开机加速"><a href="#开机加速" class="headerlink" title="开机加速"></a>开机加速</h2><h3 id="开机错误"><a href="#开机错误" class="headerlink" title="开机错误"></a>开机错误</h3><p>开机显示<code>Gave up waiting for suspend，resume device</code></p>
-<p>这东西耗了我30秒，简直就是谋财害命<br>网上搜了一下，好象是debian的一个<a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=860543#22" target="_blank" rel="noopener">bug</a><br>最简单的解决方案就是修改grub</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo vim /etc/default/grub</span><br></pre></td></tr></table></figure>
-
-<p>将<code>GRUB_CMDLINE_LINUX=&quot;quiet&quot;</code><br>改为<code>GRUB_CMDLINE_LINUX=&quot;quiet noresume&quot;</code><br>然后更新grub</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ sudo update-grub</span><br></pre></td></tr></table></figure>
-
-<h3 id="禁用一些不必要的开机启动项"><a href="#禁用一些不必要的开机启动项" class="headerlink" title="禁用一些不必要的开机启动项"></a>禁用一些不必要的开机启动项</h3><p>这条命令可以查看一些服务开机所花的时间</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ systemd-analyze blame</span><br></pre></td></tr></table></figure>
-
-<p>参考这个<a href="https://linux.cn/article-8835-1.html" target="_blank" rel="noopener">网站</a><br>禁用ModemManager（耗了我七秒多，也不能忍）</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo systemctl stop ModemManager.service</span><br><span class="line">$ sudo systemctl <span class="built_in">disable</span> ModemManager.service</span><br></pre></td></tr></table></figure>
-
-<p>还有其他一些不必要的服务</p>
-<ul>
-<li>accounts-daemon.service</li>
-<li>pppd-dns.service</li>
-<li>debug-shell.service</li>
-</ul>
-<h2 id="shadowsock-必备"><a href="#shadowsock-必备" class="headerlink" title="shadowsock 必备"></a>shadowsock 必备</h2><p>作为一个有vps的人，这是必须的</p>
-<h3 id="pac文件"><a href="#pac文件" class="headerlink" title="pac文件"></a>pac文件</h3><p>放弃firefox了<br>chrome直接用SwitchyOmega<br>auto switch选项上直接有gfwlist下载<br>Rule List URL:<code>https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt</code>\</p>
-<h3 id="proxychains"><a href="#proxychains" class="headerlink" title="proxychains"></a>proxychains</h3><p>本来以为终端没法使用代理的，直到发现了这个东西<br>proxychains<br>但这个运行时有个错误，看着十分不爽<br>有强迫症的我又找到了高级版本<a href="https://github.com/rofl0r/proxychains-ng" target="_blank" rel="noopener">proxychains-ng</a><br>应该也叫proxychains4<br>配置很简单，配置文件是这个<code>/etc/proxychains.conf</code></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
       
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/23/树莓派语音/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="abc">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="abc's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/10/23/树莓派语音/" itemprop="url">树莓派语音</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-10-23T09:30:50+08:00">
-                2019-10-23
-              </time>
+              <a href="/2020/01/06/debian桌面优化/" rel="next" title="debian桌面优化">
+                <i class="fa fa-chevron-left"></i> debian桌面优化
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2019/10/23/树莓派语音/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/10/23/树莓派语音/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>#树莓派<br>半年前买</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -839,147 +569,11 @@
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/08/first/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="abc">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="abc's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/07/08/first/" itemprop="url">first</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-07-08T16:41:53+08:00">
-                2019-07-08
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2019/07/08/first/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2019/07/08/first/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><img src="/2019/07/08/first/run.jpg" alt="Keep on going"></p>
-<h2 id="run"><a href="#run" class="headerlink" title="run"></a>run</h2><blockquote>
-<p>之前一直都有写博客的想法，但一直不知道要写什么，感觉能写上去的并不多。<br>此时此刻害怕被孤独，被无趣打败的我，决定开始让博客来帮我。</p>
-<blockquote>
-<p>有时候会觉得自己最大的敌人是无聊无趣，“找不到事做”</p>
-</blockquote>
-</blockquote>
-<h4 id="来吧！让我勇敢的迎接这孤独的自由吧！"><a href="#来吧！让我勇敢的迎接这孤独的自由吧！" class="headerlink" title="来吧！让我勇敢的迎接这孤独的自由吧！"></a>来吧！让我勇敢的迎接这孤独的自由吧！</h4><p><img src="/2019/07/08/first/%E8%B5%B7%E8%88%AA.jpg" alt="起程"></p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -987,6 +581,20 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -1007,8 +615,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -1081,6 +698,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#开端"><span class="nav-number">1.</span> <span class="nav-text">开端</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第一代井字棋（无需任何逻辑搜索，失败）"><span class="nav-number">2.</span> <span class="nav-text">第一代井字棋（无需任何逻辑搜索，失败）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第二代井字棋（全靠逻辑搜索，成功）"><span class="nav-number">3.</span> <span class="nav-text">第二代井字棋（全靠逻辑搜索，成功）</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第四代井字棋（真正的极大极小值搜索，再加上alphabeta剪枝）"><span class="nav-number">4.</span> <span class="nav-text">第四代井字棋（真正的极大极小值搜索，再加上alphabeta剪枝）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#极大极小值搜索"><span class="nav-number">4.1.</span> <span class="nav-text">极大极小值搜索</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#简单原理"><span class="nav-number">4.1.1.</span> <span class="nav-text">简单原理</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#alpha-beta剪枝"><span class="nav-number">4.2.</span> <span class="nav-text">alpha-beta剪枝</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#简单的"><span class="nav-number">4.2.1.</span> <span class="nav-text">简单的</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#最后"><span class="nav-number">5.</span> <span class="nav-text">最后</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1221,6 +854,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -1238,6 +875,18 @@
       <script id="dsq-count-scr" src="https://abc.disqus.com/count.js" async></script>
     
 
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://yoursite.com/2020/01/15/井字棋AI/';
+          this.page.identifier = '2020/01/15/井字棋AI/';
+          this.page.title = '井字棋AI';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://abc.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
     
 
   
